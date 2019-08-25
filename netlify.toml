@@ -6,3 +6,9 @@ publish = "build_production"
 [build.environment]
 
 PHP_VERSION="7.2"
+
+[[redirects]]
+  from = "https://staticpress-bootstrap.netlify.com/*"
+  to = "https://bootstrap-demo.staticpress.io/:splat"
+  status = 301
+  force = true

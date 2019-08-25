@@ -3,13 +3,13 @@
 return [
 	'production' => false,
 	'google_analytic_code' => 'UA-23560239-19',
-	'disqus_code' => 'staticpress-bootstrap-demo',
-	'title' => 'Bootstrap demo | staticPress',
+	'disqus_code' => 'static-press',
+	'title' => 'Twitter Bootstrap 4 Demo | StaticPress',
 	'mainUrl' => 'https://bootstrap-demo.staticpress.io',
 	'baseUrl' => 'https://bootstrap-demo.staticpress.io',
 	'siteAuthor' => 'Hence Media Pvt. Ltd.',
 	'site' => [
-		'title' => 'Bootstrap demo | staticPress',
+		'title' => 'Twitter Bootstrap 4 Demo | StaticPress',
 	],
 	'collections' => [
 		'posts' => [
