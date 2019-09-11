@@ -22,3 +22,6 @@
         </div>
     </div>
 </article>
+@if(!$loop -> last)
+	<hr>
+@endif 

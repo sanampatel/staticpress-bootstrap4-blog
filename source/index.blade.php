@@ -5,10 +5,6 @@ pagination:
 ---
 @extends('_layouts.master')
 
-@section('meta')
-	<script src="{{ $page->mainUrl }}/asset/build/js/main.js"></script>
-@endsection
-
 @section('content') 
     <section class="section">
 
@@ -21,11 +17,7 @@ pagination:
 
                     <!-- Post-->
                     @foreach ($pagination->items as $post)
-                       	@include('_components.post-preview')
-                       
-                        @if(!$loop -> last)
-                            <hr>
-                        @endif  
+                       	@include('_components.post-preview')  
                     @endforeach
                     <!-- Post end-->
                 

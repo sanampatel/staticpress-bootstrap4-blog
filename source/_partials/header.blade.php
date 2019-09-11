@@ -20,7 +20,13 @@
 	<link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
 	<!-- Bootstrap core CSS -->
-	<link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" 
+	rel="stylesheet" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+	crossorigin="anonymous">
+
+	{{-- Font awesome --}}
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/fontawesome.css">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
@@ -28,18 +34,15 @@
 
 	@yield('meta')
 	<style>
-		.bd-placeholder-img {
-			font-size: 1.125rem;
-			text-anchor: middle;
-			-webkit-user-select: none;
-			-moz-user-select: none;
-			-ms-user-select: none;
-			user-select: none;
-		}
-		@media (min-width: 768px) {
-			.bd-placeholder-img-lg {
-				font-size: 3.5rem;
-			}
+		.brand_logo {
+			width: 210px; 
+			background: url(/images/{{ basename($settings->setting->sitelogo) }}) no-repeat; 
+			background-size: 210px;
+			text-indent: -9999px;
+			margin: 10px 0 0 0;
+			vertical-align: middle;
+			height: 60px;
+			margin-left: 0px;
 		}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
@@ -51,4 +54,5 @@
 <body>
 	<header class="blog-header mb-5 border-bottom shadow-sm">
 		@include('_partials.nav')
+
 	</header>

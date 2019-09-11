@@ -42,7 +42,6 @@ collections:
       - {label: "Image Filename", name: "image", widget: "image", required: true}
       - {label: "Comments", name: "comments", widget: "boolean", default: true}
       - {label: "Featured", name: "featured", widget: "boolean", default: false}
-      - {label: "Layout", name: "layout", widget: "hidden", default: true}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "settings"
     label: "Settings"
@@ -51,4 +50,9 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "About author", name: "aboutauthor", widget: "string", default: "About author"}
+      - {label: "About author", name: "aboutauthor", widget: "markdown", default: "About author"}
+      - {label: "Logo", name: "logo", markdown: "image"}
+      - {label: "FbLink", name: "fblink", widget: "string"}
+      - {label: "TwitterLink:", name: "twitterlink", widget: "string"}
+      - {label: "GoogleplusLink", name: "googlepluslink", widget: "string"}
+      - {label: "InstagramLink", name: "instagramlink", widget: "string"}

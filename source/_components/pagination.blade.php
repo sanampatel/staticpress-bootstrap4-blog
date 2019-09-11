@@ -15,7 +15,7 @@
 				<a
 				href="{{ $path }}"
 				title="Go to Page {{ $pageNumber }}"
-				class="page-link"
+				class="page-link {{ $pagination->currentPage == $pageNumber ? 'selected' : '' }}"
 			>{{ $pageNumber }}</a>
 		</li>
 		@endforeach

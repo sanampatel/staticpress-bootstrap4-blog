@@ -1,4 +1,8 @@
 ---
-aboutauthor: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+aboutauthor: StaticPress is a combination of Jigsaw and Netlify CMS. You can make your own blog by just changing the content as per your need.
 sitelogo: /source/images/logo.png
+fblink:
+twitterlink:
+googlepluslink: 
+instagramlink: 
 ---

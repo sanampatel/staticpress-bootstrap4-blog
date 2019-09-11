@@ -26,7 +26,7 @@
 
                     @if($page->image)
                         <div class="post-preview">
-                            <img src="{{ $page->mainUrl }}/images/{{ basename($page->image) }}" class="img-fluid rounded">
+                            <img src="{{ $page->mainUrl }}/images/{{ basename($page->image) }}" class="img-fluid rounded border">
                         </div>
                     @endif
 

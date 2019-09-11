@@ -1,10 +1,21 @@
 <p class="text-right pt-5">
-    <a href="#" class="bg-light pl-3 pr-3 pt-2 pb-2 text-right">&uparrow;</a>
+	<a href="#" class="bg-light pl-3 pr-3 pt-2 pb-2 text-right">&uparrow;</a>
 </p>
 <footer class="blog-footer bg-light p-3">
 	<div class="container text-center">
-  		<small>Made with <span style="color: #e74c3c;">♥</span> with India. Build on <a class="text-dark" href="https://getbootstrap.com/"><i>Bootstrap</i></a> using <a class="text-dark" href="https://staticpress.io"><i>StaticPress</i></a></small>
-  	</div>
+		<small>Made with 
+			<span class="ml-3 mr-3"></span>
+			<div class="heart heart-main"></div>
+			Build on 
+			<a class="text-dark" href="https://getbootstrap.com/">
+				<span class="text-bold">Bootstrap</span>
+			</a> 
+			using 
+			<a class="text-dark" href="https://staticpress.io">
+				<span class="text-bold">StaticPress</span>
+			</a>
+		</small>
+	</div>
 </footer>
 
 <!-- Bootsrap.js -->
