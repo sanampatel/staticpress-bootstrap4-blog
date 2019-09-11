@@ -1,0 +1,17 @@
+body {
+	color: #666;
+	line-height: 28px
+}
+/*Search component*/
+.absolute {
+    position: absolute;
+    margin-top: -18px
+}
+
+.relative {
+    position: absolute;
+}
+
+.logo {
+	height: 60px
+}
