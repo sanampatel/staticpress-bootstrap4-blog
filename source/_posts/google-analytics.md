@@ -9,11 +9,11 @@ seodescription: >-
 tags:
   - demo
   - staticpress
-categories:
-  - analytics
-image: /source/images/google-analytics.jpg
-authorimage: /source/images/author-img.jpeg
+categories: analytics
+image: /source/images/google-analytics.png
+smallimage: /source/images/small-google-analytics.png
 comments: true
+featured: true
 ---
 
 Google Analytics is digital analytics software. It's a web analytics service that allows you to analyze in-depth detail about the visitors on your website.

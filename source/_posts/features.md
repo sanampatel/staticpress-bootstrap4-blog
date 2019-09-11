@@ -1,5 +1,5 @@
 ---
-title: Netlify CMS
+title: Features Of StaticPress
 date: 2019-06-06T00:00:00.000Z
 seotitle: Netlify CMS
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'
@@ -10,15 +10,20 @@ tags:
   - cms
   - demo
   - netlify
-categories:
-  - cms
-image: /source/images/netlifycms.png
+categories: features
+image: /source/images/features-large.png
 authorimage: /source/images/author-img.jpeg
 comments: true
+featured: true
 ---
 
-Netlify CMS *Static + content management*. 
+StaticPress has following features.
 
-Netlify CMS is based on client-side JavaScript, reusable APIs and prebuilt Markup.
-
-You can edit the content by changing at [Staticpress demo admin panel](https://demo.staticpress.io/admin/).
+* Change of tag and category
+* Adintion of tag and category
+* Google analytics
+* Disqus comment
+* Fuse js
+* Netlify CMS
+* Slider
+* Create new pages
