@@ -39,6 +39,14 @@ return [
 				return $page->getFilename();
 			},
 		],
+		'settings' => [
+			'path' => 'settings/{filename}',
+			'extends' => '_layouts.master',
+			'section' => '',
+			'name' => function ($page) {
+				return $page->getFilename();
+			},
+		],
 	],
 	'excerpt' => function ($page, $limit = 250, $end = '...') {
 		return $page->isPost
