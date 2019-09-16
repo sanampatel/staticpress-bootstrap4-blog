@@ -12,6 +12,7 @@ tags:
   - demo
   - netlify
 categories: description
+isPosts: true
 image: 
 comments: true
 featured: false

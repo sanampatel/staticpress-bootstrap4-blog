@@ -12,6 +12,7 @@ tags:
   - demo
   - staticpress
 categories: Comment
+isPosts: true
 image: /source/images/about-2.png
 smallimage: /source/images/small-about.png
 comments: true

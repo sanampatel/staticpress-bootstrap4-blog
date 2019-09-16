@@ -7,7 +7,7 @@ pagination:
 
 @section('content') 
     <section class="section">
-
+        
         <!-- Container -->
         <div class="container">
 

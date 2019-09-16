@@ -11,6 +11,7 @@ tags:
   - demo
   - disqus
 categories: comment
+isPosts: true
 image: /source/images/disqus.png
 smallimage: /source/images/small-disqus.png
 comments: true

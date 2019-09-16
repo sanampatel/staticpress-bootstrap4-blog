@@ -12,6 +12,7 @@ tags:
   - demo
   - netlify
 categories: features
+isPosts: true
 image: /source/images/features-large.png
 authorimage: /source/images/author-img.jpeg
 comments: true

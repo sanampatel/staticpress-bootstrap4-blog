@@ -10,6 +10,7 @@ seodescription: >-
 tags:
   - staticpress
 categories: issues
+isPosts: true
 image: 
 smallimage: 
 comments: true

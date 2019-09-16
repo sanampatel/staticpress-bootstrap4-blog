@@ -58,8 +58,8 @@ a.selected {
 }
 
 .heart-main {
-	-webkit-animation: pounding .5s linear infinite alternate;
-	animation: pounding .5s linear infinite alternate;
+	-webkit-animation: pounding 3s linear infinite alternate;
+	animation: pounding 3s linear infinite alternate;
 }
 
 @-webkit-keyframes pounding {

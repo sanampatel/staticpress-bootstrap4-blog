@@ -11,6 +11,7 @@ tags:
   - demo
   - staticpress
 categories: analytics
+isPosts: true
 image: /source/images/google-analytics.png
 smallimage: /source/images/small-google-analytics.png
 comments: true
