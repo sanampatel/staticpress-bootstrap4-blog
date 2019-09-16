@@ -44,15 +44,22 @@
 			height: 60px;
 			margin-left: 0px;
 		}
+		.brand_logo {
+			width: 210px; 
+			background: url('/images/{{ basename($settings->setting->sitelogo) }}') no-repeat; 
+			background-size: 210px;
+		}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+
+	@yield('meta')
+
 	@include('_partials.cms.identity_widget')
 
-	<!-- Custom CSS -->
+	{{-- Custom CSS --}}
 	<link rel="stylesheet" href="{{ $page->mainUrl }}/asset/build/css/main.css">
 </head>
 <body>
 	<header class="blog-header mb-5 border-bottom shadow-sm">
 		@include('_partials.nav')
-
 	</header>

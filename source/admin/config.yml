@@ -1,5 +1,3 @@
-imports:
-    - { resource: tagss.yml }
 backend:
   name: github
   repo: thakkarhiral/staticpress.io

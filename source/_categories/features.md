@@ -1,4 +1,3 @@
 ---
 title: Features
-image: 
 ---
