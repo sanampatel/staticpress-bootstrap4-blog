@@ -5,7 +5,7 @@ return [
 	'google_analytic_code' => 'UA-23560239-19',
 	'disqus_code' => 'static-press',
 	'title' => 'Twitter Bootstrap 4 Demo | StaticPress',
-	'mainUrl' => 'https://bootstrap-demo.staticpress.io',
+	'mainUrl' => 'http://localhost:8020',
 	'baseUrl' => 'https://bootstrap-demo.staticpress.io',
 	'siteAuthor' => 'Hence Media Pvt. Ltd.',
 	'site' => [

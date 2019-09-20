@@ -17,7 +17,7 @@ pagination:
 
 					 {{-- Post --}}
 					@foreach ($pagination->items as $post)
-						@include('_components.post-preview') 
+						@include('_partials.components.post-preview') 
 					@endforeach
 					 {{-- Post end --}}
 				
@@ -25,7 +25,7 @@ pagination:
 					<div class="row">
 						<div class="col-sm-12">
 							@if ($pagination->pages->count() > 1)
-								@include('_components.pagination')
+								@include('_partials.components.pagination')
 							@endif
 						</div>
 					</div>
@@ -35,7 +35,7 @@ pagination:
 				 {{-- Content end --}}
 
 				{{-- Sidebar --}}
-				<div class="col-lg-4">	
+				<div class="col-lg-4 d-none d-lg-block">	
 					@include('_partials.sidebar')
 				</div>
 				 {{-- Sidebar end --}}

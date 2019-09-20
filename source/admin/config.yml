@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: thakkarhiral/staticpress.io
+  name: git-gateway
+  repo: sanampatel/staticpress-bootstrap4-blog
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
@@ -53,5 +53,6 @@ collections:
       - {label: "Logo", name: "logo", markdown: "image"}
       - {label: "FbLink", name: "fblink", widget: "string"}
       - {label: "TwitterLink:", name: "twitterlink", widget: "string"}
-      - {label: "GoogleplusLink", name: "googlepluslink", widget: "string"}
       - {label: "InstagramLink", name: "instagramlink", widget: "string"}
+      - {label: "Custom Header", name: "customheader", widget: "markdown"}
+      - {label: "Custom Footer", name: "customfooter", widget: "markdown"}

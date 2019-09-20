@@ -32,7 +32,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 
-	@yield('meta')
 	<style>
 		.brand_logo {
 			width: 210px; 
@@ -52,9 +51,7 @@
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 
-	@yield('meta')
-
-	@include('_partials.cms.identity_widget')
+	@include('_custom.header')
 
 	{{-- Custom CSS --}}
 	<link rel="stylesheet" href="{{ $page->mainUrl }}/asset/build/css/main.css">
