@@ -46,7 +46,7 @@ collections:
     label: "Settings"
     label_singular: "Setting"
     folder: "source/_settings"
-    create: true
+    create: false
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", default: "Setting"}
