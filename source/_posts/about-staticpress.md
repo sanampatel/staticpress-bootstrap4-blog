@@ -1,22 +1,21 @@
 ---
 title: About staticpress
-authorname:
+authorname: Hence media
 date: 2019-07-18T00:00:00.000Z
 seotitle: About staticpress
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'
-seodescription: >-
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+seodescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium
 tags:
   - about
   - demo
   - staticpress
 categories: Comment
-isPosts: true
-image: /source/images/about-2.png
-smallimage: /source/images/small-about.png
+image: /source/images/about.png
 comments: true
-featured: false
+isPosts: true
+description: Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.
+
 ---
 Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm. 
 

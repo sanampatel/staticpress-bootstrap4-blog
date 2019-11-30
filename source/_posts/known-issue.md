@@ -1,20 +1,18 @@
 ---
 title: Known Issue - Tag & Category
-authorname:
+authorname: Hence media
 date: 2019-05-30T00:00:00.000Z
 seotitle: Netlify CMS
 seokeywords: 'Lorem, ipsum, dolor, sit, amet, consectetur'
-seodescription: >-
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+seodescription: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
   doloremque laudantium
 tags:
   - staticpress
 categories: issues
-isPosts: true
 image: 
-smallimage: 
 comments: true
-featured: false
+isPosts: true
+description: Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.Staticpress is simple and easy to use software for making your own website with admin panel. One can make his/her own website in just few clicks by using Staticpress and Netlify CMS. You just have to download staticpress repository from github, install composer and npm.
 ---
 
 There is one known issue in StaticPress. Isssue of adding new category/tag.
