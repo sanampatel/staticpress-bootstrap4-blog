@@ -50,14 +50,14 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", default: "Setting"}
-      - {label: "SEOTitle", name: "seotitle", widget: "string", default: "SEO Title", optional: true}
-      - {label: "SEO Keywords", name: "seokeywords", widget: "string", default: SEO Keywords, optional: true}
-      - {label: "SEO Description", name: "seodescription", widget: "string", default: SEO Description, optional: true}
+      - {label: "SEOTitle", name: "seotitle", widget: "string", default: "SEO Title", required: false}
+      - {label: "SEO Keywords", name: "seokeywords", widget: "string", default: SEO Keywords, required: false}
+      - {label: "SEO Description", name: "seodescription", widget: "string", default: SEO Description, required: false}
       - {label: "About author", name: "aboutauthor", widget: "markdown", default: "About author"}
-      - {label: "Post page title", name: "postpagetitle", widget: "string", default: "Post page title", optional: true}
+      - {label: "Post page title", name: "postpagetitle", widget: "string", default: "Post page title", required: false}
       - {label: "Logo", name: "logo", markdown: "image"}
-      - {label: "FbLink", name: "fblink", widget: "string", optional: true}
-      - {label: "TwitterLink:", name: "twitterlink", widget: "string", optional: true}
-      - {label: "InstagramLink", name: "instagramlink", widget: "string", optional: true}
-      - {label: "Custom Header", name: "customheader", widget: "markdown", optional: true}
-      - {label: "Custom Footer", name: "customfooter", widget: "markdown", optional: true}
+      - {label: "FbLink", name: "fblink", widget: "string", required: false}
+      - {label: "TwitterLink:", name: "twitterlink", widget: "string", required: false}
+      - {label: "InstagramLink", name: "instagramlink", widget: "string", required: false}
+      - {label: "Custom Header", name: "customheader", widget: "markdown", required: false}
+      - {label: "Custom Footer", name: "customfooter", widget: "markdown", required: false}
